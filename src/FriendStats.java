@@ -7,8 +7,8 @@ public class FriendStats {
 		System.out.println("/////////////////XUAN'S FRIENDS/////////////////");
 		System.out.println("-------------------------------------------------");
 		
-		Friend testAlex = new AlexQuang();
-		testAlex.message();
+		AlexQuang testAlex = new AlexQuang("Alex Quang", 24, "Male");
+		testAlex.sayMyName();
 		Friend testQuang = new QuangTran();
 		testQuang.message();
 		Friend testTrung = new TrungPham();
