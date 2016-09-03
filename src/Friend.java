@@ -19,8 +19,8 @@ public class Friend {
 	 * @param onGoodterm
 	 * @param inRelationship
 	 */
-	public Friend() {
-		super();
+	public Friend(String name) {
+		this.name = name;
 		numberOfFriends++;
 		System.out.println("Creating...Object"+numberOfFriends+" ");
 	}
