@@ -9,6 +9,15 @@ public class FriendStats {
 		
 		Friend testAlex = new AlexQuang();
 		testAlex.message();
+		Friend testQuang = new QuangTran();
+		testQuang.message();
+		Friend testTrung = new TrungPham();
+		testTrung.message();
+		Friend testAnthony = new AnthonyQuang();
+		testAnthony.message();
+		
+		
+		
 	}
 
 }
